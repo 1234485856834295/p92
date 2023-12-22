@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>Math Quiz</title>
+        <script src="main.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body style="text-align: center;"  onload="getscore()" id="body2">
+        <div>
+        <label style="text-align: left;"  id="label1" ></label> <span id="score1"></span><br>
+        <label style="text-align: left;"  id="label2"></label><span id="score2"> </span>
+    </div>
+    <h1>The Math Quiz Game</h1>
+    <div class="container" id="q&a">
+        <label id="qlabel"></label>
+        <label for="answerl"></label>
+        <br><br>
+
+        <div style="width: 500px;" style="height: 400px;" id="output"></div>
+ 
+        <button id="check">Check</button>
+    </div>
+    <br><br>
+    <h3>Number 1</h3>
+    <input type="text" id="ansinput"><br><br>
+    <h3>Number 2</h3>
+    <input type="text" id="qsinput">
+<br><br>
+<button id="send" onclick="submit()" >Send</button>
+        <script src="second.js"></script>
+    </body>
+</html>
